@@ -4,7 +4,7 @@
   "description": "Landing page for Open Code Review",
   "type": "module",
   "scripts": {
-    "dev": "webpack serve",
+    "dev": "node api.js && webpack serve",
     "build": "NODE_ENV=production webpack --mode production",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
