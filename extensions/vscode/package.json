@@ -84,7 +84,7 @@
   "scripts": {
     "compile": "webpack --mode development",
     "watch": "webpack --mode development --watch",
-    "build": "webpack --mode production",
+    "build": "node init && webpack --mode production",
     "test": "jest",
     "lint": "eslint src --ext ts,tsx",
     "package": "vsce package --no-yarn",

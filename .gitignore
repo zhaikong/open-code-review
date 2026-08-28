@@ -45,3 +45,4 @@ bin/opencodereview
 # Python
 __pycache__/
 *.py[cod]
+config.bat
